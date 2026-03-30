@@ -1,0 +1,71 @@
+# .NET
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.so
+*.dylib
+*.su
+*.o
+.vs/
+.vscode/
+*.user
+*.sln.docstates
+*.userprefs
+.DS_Store
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Visual Studio
+.vs/
+.vscode/
+*.sln.user
+.idea/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+
+# Entity Framework
+Migrations/
+
+# Environment
+.env
+.env.local
+appsettings.Development.json
+appsettings.Production.json
+
+# Node/React
+node_modules/
+frontend/build/
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Docker
+.dockerignore
+
+# IDE
+*.swp
+*.swo
+*~
+.idea/
+*.sublime-workspace
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+logs/
+*.log
